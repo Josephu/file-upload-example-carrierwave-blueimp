@@ -1,0 +1,9 @@
+Use this README file to introduce your application and point to useful places in the API for learning more.
+Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+
+[Reference](http://railscasts.com/episodes/253-carrierwave-file-uploads)
+
+Only replacement is using MiniMagick instead of RMagick.
+Changes include:
+* Gemfile: gem 'mini_magick'
+* image_uploader: include Carrierwave::ImageMagick
